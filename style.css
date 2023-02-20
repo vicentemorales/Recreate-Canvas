@@ -71,12 +71,20 @@ main{
     display: flex;
     flex-wrap: wrap;
     padding-left: 10%;
+    text-decoration: none;
 }
 
 
 .intro-text h1{
     width:100%;
     padding-left: 0;
+    color: #fc5e5e;
+    text-decoration: none;
+}
+
+.intro-text h1 span a{
+    text-decoration: none;
+    color: black;
 }
 
 .top{
@@ -94,12 +102,16 @@ main{
     align-content: flex-start;
 }
 
+.cards:hover{
+    filter: color(#fec5c5);
+}
+
 .location{
-    width:25%;
+    width:30%;
     padding-left: 0;
-    padding-right: 4em;
-    padding-bottom: 2em;
     margin-left: 0;
+    margin-right: 3%; 
+    margin-bottom: 3%;
 }
 .location a img{
     width: 100%;
@@ -107,3 +119,22 @@ main{
     
 }
 
+.location a img:hover {
+    box-shadow: inset 0 0 0 10em #fec5c5;
+  }
+
+.view-all{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+button{
+    color: white;
+    background: #06232c;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px ;
+    font-size:medium ;
+}
